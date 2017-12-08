@@ -1,0 +1,31 @@
+https://tls.mbed.org/core-features
+
+MBEDTLS_KEY_EXCHANGE__SOME__PSK_ENABLED // Unhexify the pre-shared key if any is given
+MBEDTLS_SSL_ALPN // Application Layer Protocol Negotiation (ALPN) (Draft RFC)
+MBEDTLS_X509_CRT_PARSE_C
+MBEDTLS_CERTS_C
+MBEDTLS_DEBUG_C
+MBEDTLS_ECP_C
+MBEDTLS_FS_IO
+MBEDTLS_SSL_PROTO_DTLS
+MBEDTLS_SSL_TRUNCATED_HMAC
+MBEDTLS_SSL_EXTENDED_MASTER_SECRET
+MBEDTLS_SSL_ENCRYPT_THEN_MAC
+MBEDTLS_SSL_CBC_RECORD_SPLITTING
+MBEDTLS_DHM_C
+MBEDTLS_SSL_SESSION_TICKETS
+MBEDTLS_ARC4_C
+MBEDTLS_SSL_RENEGOTIATION
+MBEDTLS_SSL_MAX_FRAGMENT_LENGTH
+
+0
+    opt.curves
+    opt.psk
+    opt.alpn_string
+
+MBEDTLS_TIMING_C
+
+------------------------------ enable
+DFL_NBIO // non-block
+------------------------------ disable
+DFL_FORCE_CIPHER
